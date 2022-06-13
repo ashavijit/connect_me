@@ -1,4 +1,3 @@
-#!/usr/bin/env node
 
 "use strict";
 
@@ -82,7 +81,7 @@ const questions = [
 
 const data = {
     name: chalk.bold.green(`                  ${user_name}`),
-    // work: `${chalk.white("Software Engineer at")} ${chalk.hex("#2b82b2").bold("ClearTax")}`,
+    
     work: `${chalk.white(`${job_title}`)}`,
     twitter: chalk.gray("https://twitter.com/") + chalk.cyan(`${twitter_username}`),
     github: chalk.gray("https://github.com/") + chalk.green(`${github_username}`),
